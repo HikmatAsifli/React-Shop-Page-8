@@ -1,0 +1,22 @@
+.banner{
+    position: relative;
+    .banner-item{
+        position: absolute;
+        z-index: 999;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        h2{
+            color: white;
+            font-size: 90px;
+            font-weight: 600;
+
+        }
+        p{
+            color: white;
+            font-size: 30px;
+            font-weight: 600;
+        }
+    }
+}
